@@ -1,0 +1,191 @@
+/* ----- Header ----- */
+#header {
+  /* ----background-color: #505050; */
+  background-color: #232d42;
+  background-blend-mode: screen;
+  padding: 7px 0 0;
+}
+
+/* ----- Menu ----- */
+#menu {
+  background: #232d42;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  overflow: hidden;
+}
+
+#menu1 {
+  background: #232d42;
+  padding-bottom: -5%;
+  overflow: hidden;
+}
+
+/* ----- Footer ---- */
+#footer {
+  background: #1c2331;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 2%;
+}
+
+/* --Bagian Home-- */
+
+#kiri {
+  width: 700px;
+  min-height: 450px;
+  overflow: hidden;
+  float: left;
+}
+
+.box {
+  padding: 8px;
+  overflow: hidden;
+}
+.artikel {
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  letter-spacing: 0.5px;
+}
+.gambar-artikel {
+  float: left;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+
+/* --Bagian SideBar-- */
+
+#kanan {
+  width: 260px;
+  min-height: 400px;
+  float: left;
+}
+#kanan.judul {
+  border-bottom: 0.5px solid #ccc;
+  padding: 5px 10px;
+}
+#kanan ul {
+  padding: 0;
+  margin: 0;
+}
+#kanan li {
+  list-style: none;
+  border-bottom: 1px dotted #ddd;
+}
+#kanan li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+#kanan li a:hover {
+  background: #eee;
+}
+.judulsidebar {
+  border-bottom: 1px solid #ddd;
+}
+
+/* --Bagian Pemecah Artikel-- */
+
+.pagingagenda {
+  text-align: center;
+}
+
+.pagingagenda span {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+/* --Bagian Pemecah Artikel-- */
+
+.paging {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.paging1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.paging span {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+/* --Bagian Komentar-- */
+
+.komentar {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+.formkomentar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+}
+
+/* --Bagian Kontak Kami --*/
+
+.kontakkami {
+  padding: 5px;
+}
+.judulkontakkami {
+  padding: 5px;
+}
+
+/* ----- Bagian Menu Bootstrap ----*/
+
+#menu .navbar {
+  margin-bottom: 5px auto;
+  margin-top: -20px auto;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+
+  border-radius: 0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#menu .nav .nav-tabs {
+  margin-bottom: 100px;
+  padding-bottom: -20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* ----- Bagian Sidebar bootstrap ----- */
+.nav-tabs {
+  background: #ddd;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.tab-content {
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-bottom: 20px;
+}
+.tab-content ul {
+  padding: 0;
+}
+.tab-content li {
+  list-style: none;
+  border-bottom: 1px solid;
+  padding: 10px;
+  overflow: hidden;
+}
+.tab-content img {
+  width: 80px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
